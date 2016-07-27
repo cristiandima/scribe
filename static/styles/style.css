@@ -577,6 +577,7 @@ body {
     text-decoration: none;
     color: #333;
     font-size: 24px;
+    font-weight: 800;
 }
 
 #main-menu a.home-name:hover {
@@ -714,12 +715,12 @@ body {
 
 .content ul li a {
     font-size: 20px;
-    color: #000;
+    color: #ff3f00;
     text-decoration: none;
+    font-weight: 800;
 }
 
 .content ul li a:hover {
-    color: #000;
     text-decoration: underline;
 }
 
