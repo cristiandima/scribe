@@ -6,7 +6,7 @@ This is a very small but somewhat capabale static blog generator. Out of the box
 - other pages (about, contact, etc)
 - blog posts (the articles themselves)
 
-As an end user you only have to write .md files in the articles directory and run the script. For any advanced options or to better understand how the program works have a look at the source code (it's around a hundred lines long).
+As an end user you only have to write .md files in the content directory and run the script. For any advanced options or to better understand how the program works have a look at the source code (it's around a hundred lines long).
 
 ## Usage
 
