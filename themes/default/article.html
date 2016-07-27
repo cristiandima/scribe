@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+{% include "partials/head.html" %}
+
+<body>
+    {% include "partials/menu.html" %}
+    <article class="markdown-body">
+        {{ content }}
+        {% if date %}
+            <span>{{date.strftime('%b %d, %Y')}}</span>
+        {% endif %}
+    </article>
+    {% include "partials/footer.html" %}
+</body>
+</html>

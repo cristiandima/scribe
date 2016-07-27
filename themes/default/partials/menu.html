@@ -1,0 +1,11 @@
+<div id="menu-container">
+    <nav id="main-menu">
+        <a href="/" class="home-name">SCRIBE</a>
+        <ul>
+            <li><a href="/">Blog</a></li>
+            {% for post in collections['pages'] %}
+                <li><a href="/{{post.slug}}/">{{post.title}}</a></li>
+            {% endfor %}
+        </ul>
+    </nav>
+</div>
